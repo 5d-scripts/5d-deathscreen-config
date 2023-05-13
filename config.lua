@@ -48,7 +48,7 @@ _CONFIG =
             --modifiedBleedOutTime = 900,
             disallowDispatch = false,
             disallowEarlyRespawn = false,
-            allowRespawnAtPlaceOfDeath = true
+            allowRespawnAtPlaceOfDeath = false
         },
 
         deathByKnife = 
