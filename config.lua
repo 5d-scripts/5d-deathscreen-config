@@ -3,6 +3,7 @@ _CONFIG =
     locale = "en",
     bleedOutTimeSeconds = 900, -- Seconds until player is force-respawned.
     earlyRespawnTimeSeconds = 10, -- Second at which player can manually respawn. Can't be higher than bleedOutTime. Set to 0 to disable.
+    resyncCooldownSeconds = 10,
     enableDeathCam = true, -- enable/disable fixed deathcam
     enableDeathBlur = true, -- enable/disable motion blur on death
 
