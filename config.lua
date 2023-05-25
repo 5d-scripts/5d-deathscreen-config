@@ -7,6 +7,11 @@ _CONFIG =
     enableDeathCam = true, -- enable/disable fixed deathcam
     enableDeathBlur = true, -- enable/disable motion blur on death
 
+    useDimensionWhitelist = true, -- true: use dimension whitelist. false: use dimension blacklist.
+    dimensionBlacklist = {27, 3, 15}, -- if player dies in one of these dimensions, the deathscreen will not be triggered. useful for ffa/gangwar etc.
+    dimensionWhitelist = {0, 1}, -- if player dies in any dimension other than the ones specified, the deathscreen will not be triggered. useful for ffa/gangwar etc.
+
+
     dyingAnimation = -- Play a dyning animation on player death
     {
         enabled = true,
