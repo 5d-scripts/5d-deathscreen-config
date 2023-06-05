@@ -12,13 +12,6 @@ _CONFIG =
     dimensionWhitelist = {0, 1}, -- if player dies in any dimension other than the ones specified, the deathscreen will not be triggered. useful for ffa/gangwar etc.
 
 
-    dyingAnimation = -- Play a dyning animation on player death
-    {
-        enabled = true,
-        dictionary = "combat@damage@rb_writhe",
-        animation = "rb_writhe_loop"
-    },
-
     Keys = -- Don't forget to also change the displayed keys in the UI.
     {
         dispatchKey = 47,
