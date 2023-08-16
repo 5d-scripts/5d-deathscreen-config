@@ -11,7 +11,7 @@ _CONFIG =
     dimensionBlacklist = {27, 3, 15}, -- if player dies in one of these dimensions, the deathscreen will not be triggered. useful for ffa/gangwar etc.
     dimensionWhitelist = {0, 1}, -- if player dies in any dimension other than the ones specified, the deathscreen will not be triggered. useful for ffa/gangwar etc.
     showDeathscreen = function(playerDimension) -- add your own checks to decide when not to show the deathscreen. allows usage of ffa/gangwar exports to check if player is in ffa. also has access to player's dimension.
-        return false -- Always show Deathscreen. Add condition and return false to stop deathscreen from showing.
+        return true -- Always show Deathscreen. Add condition and return false to stop deathscreen from showing.
     end,
 
     Keys = -- Don't forget to also change the displayed keys in the UI.
