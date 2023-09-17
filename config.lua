@@ -6,6 +6,9 @@ _CONFIG =
     resyncCooldownSeconds = 10,
     enableDeathCam = true, -- enable/disable fixed deathcam
     enableDeathBlur = true, -- enable/disable motion blur on death
+    waitForServerDeathStatus = false, -- Set this to true, if you don't want the deathscreen to show up until "esx_ambulancejob:setDeathStatus" is called with the value "true"
+                                      -- Useful if you have steps between "player alive" and "player is dead", where the deathscreen is not supposed to show up yet.
+                                      -- For most people, it is recommended to not touch this and leave it at "false".
 
     useDimensionWhitelist = true, -- true: use dimension whitelist. false: use dimension blacklist.
     dimensionBlacklist = {27, 3, 15}, -- if player dies in one of these dimensions, the deathscreen will not be triggered. useful for ffa/gangwar etc.
